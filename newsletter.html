@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Signup - Galactic Voyages</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🌌 Galactic Voyages</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="flights.html">Flights</a></li>
+                <li><a href="booking.html">Book Now</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="testimonials.html">Reviews</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div style="padding: 120px 2rem 2rem; max-width: 800px; margin: 0 auto;">
+        <h1 style="text-align: center; margin-bottom: 3rem; font-size: 3rem;">📧 Stay Connected</h1>
+        
+        <div class="form-container">
+            <h2 style="color: #00d4ff; text-align: center; margin-bottom: 2rem;">Subscribe to Our Newsletter</h2>
+            <p style="text-align: center; margin-bottom: 2rem;">Get the latest updates on new destinations, special offers, and space travel news delivered to your inbox.</p>
+            
+            <form action="newsletter-success.html" method="get">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="your@email.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your full name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="interests">Interests (Select all that apply)</label>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 0.5rem;">
+                        <label style="display: flex; align-items: center; font-weight: normal;">
+                            <input type="checkbox" name="interests" value="moon" style="margin-right: 0.5rem;">
+                            Moon Travel
+                        </label>
+                        <label style="display: flex; align-items: center; font-weight: normal;">
+                            <input type="checkbox" name="interests" value="mars" style="margin-right: 0.5rem;">
+                            Mars Exploration
+                        </label>
+                        <label style="display: flex; align-items: center; font-weight: normal;">
+                            <input type="checkbox" name="interests" value="jupiter" style="margin-right: 0.5rem;">
+                            Jupiter Tours
+                        </label>
+                        <label style="display: flex; align-items: center; font-weight: normal;">
+                            <input type="checkbox" name="interests" value="saturn" style="margin-right: 0.5rem;">
+                            Saturn Expeditions
+                        </label>
+                        <label style="display: flex; align-items: center; font-weight: normal;">
+                            <input type="checkbox" name="interests" value="deals" style="margin-right: 0.5rem;">
+                            Special Offers
+                        </label>
+                        <label style="display: flex; align-items: center; font-weight: normal;">
+                            <input type="checkbox" name="interests" value="news" style="margin-right: 0.5rem;">
+                            Space News
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="frequency">Email Frequency</label>
+                    <select id="frequency" name="frequency">
+                        <option value="weekly">Weekly Updates</option>
+                        <option value="monthly">Monthly Newsletter</option>
+                        <option value="deals">Special Offers Only</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="submit-btn">Subscribe to Newsletter</button>
+            </form>
+            
+            <p style="text-align: center; margin-top: 2rem; font-size: 0.9rem; color: #ccc;">
+                We respect your privacy. Unsubscribe at any time. No spam, ever.
+            </p>
+        </div>
+
+        <p style="text-align: center; margin-top: 2rem;">
+            <a href="index.html" style="color: #00d4ff; text-decoration: none;">← Back to Home</a>
+        </p>
+    </div>
+</body>
+</html>

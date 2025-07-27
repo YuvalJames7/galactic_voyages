@@ -1,19 +1,158 @@
 <!DOCTYPE html>
-<html>
-<head><title>Available Flights</title></head>
-<body style="background-image:url('2.jpg'); color:white; font-family:sans-serif;">
-  <h1>🚀 Flights Available</h1>
-  <p>Each spacecraft in our fleet is equipped with advanced life-support systems, private sleeping pods, 360° observation domes, and emergency auto-pilot features. Passengers can enjoy gourmet space cuisine, virtual star charting experiences, and video messages from Earth in real-time.</p>
-  <ul>
-    <li><strong>Moon Express:</strong> Launches every Monday, 3-day trip with moonwalk and observatory deck.</li>
-<img src="3.jpg">
-    <li><strong>Mars Voyager:</strong> Twice monthly trips with a stop at Mars Base Alpha. Includes red dune safari and lab tour.</li>
-<img src="4.jpg" width=800>
-    <li><strong>Jupiter Cruiser:</strong> Monthly orbit around Jupiter. Luxury lounges and telescope domes onboard.</li>
-<img src="5.jpg">
-    <li><strong>Saturn Explorer:</strong> Seasonal tours offering a breathtaking pass through Saturn’s rings.</li>
-<img src="6.jpg">
-  </ul>
-  <p><a href="index.html" style="color:yellow;">← Back to Home</a></p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Available Flights - Galactic Voyages</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">🌌 Galactic Voyages</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="flights.html">Flights</a></li>
+        <li><a href="booking.html">Book Now</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="testimonials.html">Reviews</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div style="padding: 120px 2rem 2rem; max-width: 1200px; margin: 0 auto;">
+    <h1 style="text-align: center; margin-bottom: 3rem; font-size: 3rem;">🚀 Available Flights</h1>
+    
+    <div style="text-align: center; margin-bottom: 3rem; background: rgba(0,0,0,0.8); padding: 2rem; border-radius: 15px;">
+      <p style="font-size: 1.1rem; line-height: 1.8;">Each spacecraft in our fleet is equipped with advanced life-support systems, private sleeping pods, 360° observation domes, and emergency auto-pilot features. Passengers can enjoy gourmet space cuisine, virtual star charting experiences, and video messages from Earth in real-time.</p>
+    </div>
+
+    <!-- Flight Cards -->
+    <div class="flight-card">
+      <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; align-items: center;">
+        <div>
+          <img src="3.jpg" alt="Moon Express" style="width: 100%; border-radius: 10px;">
+        </div>
+        <div>
+          <h2 style="color: #00d4ff; margin-bottom: 1rem;">🌙 Moon Express</h2>
+          <p style="margin-bottom: 1rem;"><strong>Schedule:</strong> Launches every Monday</p>
+          <p style="margin-bottom: 1rem;"><strong>Duration:</strong> 3-day trip</p>
+          <p style="margin-bottom: 1rem;"><strong>Highlights:</strong> Moonwalk experience, observatory deck, Earth viewing lounge</p>
+          <p style="margin-bottom: 1rem;"><strong>Price:</strong> Starting at $50,000 per person</p>
+          <a href="booking.html" class="cta-button">Book Moon Trip</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flight-card">
+      <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; align-items: center;">
+        <div>
+          <h2 style="color: #00d4ff; margin-bottom: 1rem;">🔴 Mars Voyager</h2>
+          <p style="margin-bottom: 1rem;"><strong>Schedule:</strong> Twice monthly departures</p>
+          <p style="margin-bottom: 1rem;"><strong>Duration:</strong> 14-day expedition</p>
+          <p style="margin-bottom: 1rem;"><strong>Highlights:</strong> Mars Base Alpha tour, red dune safari, geological exploration</p>
+          <p style="margin-bottom: 1rem;"><strong>Price:</strong> Starting at $150,000 per person</p>
+          <a href="booking.html" class="cta-button">Book Mars Trip</a>
+        </div>
+        <div>
+          <img src="4.jpg" alt="Mars Voyager" style="width: 100%; border-radius: 10px;">
+        </div>
+      </div>
+    </div>
+
+    <div class="flight-card">
+      <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; align-items: center;">
+        <div>
+          <img src="5.jpg" alt="Jupiter Cruiser" style="width: 100%; border-radius: 10px;">
+        </div>
+        <div>
+          <h2 style="color: #00d4ff; margin-bottom: 1rem;">🪐 Jupiter Cruiser</h2>
+          <p style="margin-bottom: 1rem;"><strong>Schedule:</strong> Monthly luxury cruises</p>
+          <p style="margin-bottom: 1rem;"><strong>Duration:</strong> 21-day orbital experience</p>
+          <p style="margin-bottom: 1rem;"><strong>Highlights:</strong> Jupiter orbit, luxury lounges, telescope domes, storm observation</p>
+          <p style="margin-bottom: 1rem;"><strong>Price:</strong> Starting at $300,000 per person</p>
+          <a href="booking.html" class="cta-button">Book Jupiter Trip</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flight-card">
+      <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; align-items: center;">
+        <div>
+          <h2 style="color: #00d4ff; margin-bottom: 1rem;">💍 Saturn Explorer</h2>
+          <p style="margin-bottom: 1rem;"><strong>Schedule:</strong> Seasonal tours (limited availability)</p>
+          <p style="margin-bottom: 1rem;"><strong>Duration:</strong> 28-day premium expedition</p>
+          <p style="margin-bottom: 1rem;"><strong>Highlights:</strong> Saturn's rings flythrough, moon exploration, premium spa facilities</p>
+          <p style="margin-bottom: 1rem;"><strong>Price:</strong> Starting at $500,000 per person</p>
+          <a href="booking.html" class="cta-button">Book Saturn Trip</a>
+        </div>
+        <div>
+          <img src="6.jpg" alt="Saturn Explorer" style="width: 100%; border-radius: 10px;">
+        </div>
+      </div>
+    </div>
+
+    <!-- Comparison Table -->
+    <div style="background: rgba(0,0,0,0.8); padding: 2rem; border-radius: 15px; margin: 3rem 0;">
+      <h2 style="color: #00d4ff; text-align: center; margin-bottom: 2rem;">Flight Comparison</h2>
+      <div style="overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse; color: white;">
+          <thead>
+            <tr style="border-bottom: 2px solid #00d4ff;">
+              <th style="padding: 1rem; text-align: left;">Destination</th>
+              <th style="padding: 1rem; text-align: left;">Duration</th>
+              <th style="padding: 1rem; text-align: left;">Price</th>
+              <th style="padding: 1rem; text-align: left;">Difficulty</th>
+              <th style="padding: 1rem; text-align: left;">Best For</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid rgba(0,212,255,0.3);">
+              <td style="padding: 1rem;">Moon Express</td>
+              <td style="padding: 1rem;">3 days</td>
+              <td style="padding: 1rem;">$50,000</td>
+              <td style="padding: 1rem;">Beginner</td>
+              <td style="padding: 1rem;">First-time travelers</td>
+            </tr>
+            <tr style="border-bottom: 1px solid rgba(0,212,255,0.3);">
+              <td style="padding: 1rem;">Mars Voyager</td>
+              <td style="padding: 1rem;">14 days</td>
+              <td style="padding: 1rem;">$150,000</td>
+              <td style="padding: 1rem;">Intermediate</td>
+              <td style="padding: 1rem;">Adventure seekers</td>
+            </tr>
+            <tr style="border-bottom: 1px solid rgba(0,212,255,0.3);">
+              <td style="padding: 1rem;">Jupiter Cruiser</td>
+              <td style="padding: 1rem;">21 days</td>
+              <td style="padding: 1rem;">$300,000</td>
+              <td style="padding: 1rem;">Advanced</td>
+              <td style="padding: 1rem;">Luxury travelers</td>
+            </tr>
+            <tr>
+              <td style="padding: 1rem;">Saturn Explorer</td>
+              <td style="padding: 1rem;">28 days</td>
+              <td style="padding: 1rem;">$500,000</td>
+              <td style="padding: 1rem;">Expert</td>
+              <td style="padding: 1rem;">Premium experience</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: rgba(0,0,0,0.8); border-radius: 15px;">
+      <h2 style="color: #00d4ff; margin-bottom: 1rem;">Ready to Book Your Adventure?</h2>
+      <p style="margin-bottom: 2rem;">Choose your destination and start your journey to the stars today!</p>
+      <a href="booking.html" class="cta-button">Book Your Flight Now</a>
+    </div>
+
+    <p style="text-align: center; margin-top: 2rem;">
+      <a href="index.html" style="color: #00d4ff; text-decoration: none;">← Back to Home</a>
+    </p>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

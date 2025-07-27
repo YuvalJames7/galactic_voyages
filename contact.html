@@ -1,13 +1,114 @@
 <!DOCTYPE html>
-<html>
-<head><title>Contact Us</title></head>
-<body style="background-color:black; color:white; font-family:sans-serif;">
-  <h1>📞 Contact Us</h1>
-  <p>Have questions, concerns, or custom travel requests? We’d love to hear from you!</p>
-  <p><strong>Email:</strong> support@galacticvoyages.space</p>
-  <p><strong>Phone:</strong> +123-456-7890</p>
-  <p><strong>HQ:</strong> Earth Orbit Docking Station 3, GeoSync Lane</p>
-  <p><strong>Support Hours:</strong> 24/7 Universal Time</p>
-  <p><a href="index.html" style="color:yellow;">← Back to Home</a></p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Galactic Voyages</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">🌌 Galactic Voyages</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="flights.html">Flights</a></li>
+        <li><a href="booking.html">Book Now</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="testimonials.html">Reviews</a></li>
+      </ul>
+    </div>
+  </nav>
 </body>
 </html>
+
+    <div class="cards-container">
+      <div class="card">
+        <h3>📧 Email Support</h3>
+        <p><strong>General Inquiries:</strong><br>support@galacticvoyages.space</p>
+        <p><strong>Bookings:</strong><br>bookings@galacticvoyages.space</p>
+        <p><strong>Emergency:</strong><br>emergency@galacticvoyages.space</p>
+      </div>
+      
+      <div class="card">
+        <h3>📞 Phone Support</h3>
+        <p><strong>Main Line:</strong><br>+123-456-7890</p>
+        <p><strong>Booking Hotline:</strong><br>+123-456-7891</p>
+        <p><strong>24/7 Emergency:</strong><br>+123-456-7892</p>
+      </div>
+      
+      <div class="card">
+        <h3>🏢 Headquarters</h3>
+        <p><strong>Address:</strong><br>Earth Orbit Docking Station 3<br>GeoSync Lane, Sector 7<br>Low Earth Orbit</p>
+        <p><strong>Visiting Hours:</strong><br>24/7 Universal Time</p>
+      </div>
+    </div>
+  <div style="padding: 120px 2rem 2rem; max-width: 1000px; margin: 0 auto;">
+    <!-- Contact Form -->
+    <div class="form-container" style="margin: 3rem 0;">
+      <h2 style="color: #00d4ff; text-align: center; margin-bottom: 2rem;">Send Us a Message</h2>
+      
+      <form action="contact-success.html" method="get">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your full name">
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required placeholder="your@email.com">
+        </div>
+        
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject" required>
+            <option value="">Select a topic</option>
+            <option value="booking">Booking Inquiry</option>
+            <option value="support">Customer Support</option>
+            <option value="feedback">Feedback</option>
+            <option value="partnership">Partnership</option>
+            <option value="media">Media Inquiry</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required placeholder="Tell us how we can help you..." style="width: 100%; padding: 12px; border: 2px solid rgba(0, 212, 255, 0.3); border-radius: 8px; background: rgba(255, 255, 255, 0.1); color: white; font-size: 1rem; resize: vertical;"></textarea>
+        </div>
+        
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+    <h1 style="text-align: center; margin-bottom: 3rem; font-size: 3rem;">📞 Contact Us</h1>
+    <!-- Office Locations -->
+    <div style="background: rgba(0,0,0,0.8); padding: 2rem; border-radius: 15px; margin: 3rem 0;">
+      <h2 style="color: #00d4ff; margin-bottom: 2rem; text-align: center;">Our Locations</h2>
+      <div class="cards-container">
+        <div class="card">
+          <h4 style="color: #00d4ff;">🌍 Earth HQ</h4>
+          <p>Earth Orbit Station 3<br>Primary operations center</p>
+        </div>
+        
+        <div class="card">
+          <h4 style="color: #00d4ff;">🌙 Moon Base</h4>
+          <p>Selene Station<br>Lunar operations hub</p>
+        </div>
+        
+        <div class="card">
+          <h4 style="color: #00d4ff;">🔴 Mars Office</h4>
+          <p>Mars Base Alpha<br>Red planet operations</p>
+        </div>
+      </div>
+    </div>
+    
+    <p style="text-align: center; margin-top: 2rem;">
+      <a href="index.html" style="color: #00d4ff; text-decoration: none;">← Back to Home</a>
+    </p>
+  </div>
+    <div style="text-align: center; margin-bottom: 3rem; background: rgba(0,0,0,0.8); padding: 2rem; border-radius: 15px;">
+  <script src="script.js"></script>
+      <p style="font-size: 1.1rem;">Have questions, concerns, or custom travel requests? We'd love to hear from you!</p>
+    </div>
